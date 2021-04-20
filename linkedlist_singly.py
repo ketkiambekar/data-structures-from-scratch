@@ -35,11 +35,12 @@ class sLinkedList:
         ll = self.head
 
         #We have two cases:
-        #
+        # Case 1: Deleting the head node
         if ll.val == val:
             self.head = ll.next
             return ll.val
 
+        #Case 2: Deleting a non-head node.
         while True:
             if ll.next.val == val:
                 temp = ll.next.val
