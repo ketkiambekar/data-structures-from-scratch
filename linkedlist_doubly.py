@@ -128,27 +128,83 @@ if __name__=="__main__":
     
    
 ########### OUTPUT ###########
-    # A
-    # B
-    # C
-    # D
-    # K
-    # N
-    # Popped: D
-    # A
-    # B
-    # C
-    # K
-    # N
-    # Popped: N
-    # A
-    # B
-    # C
-    # K
-    # Popped: A
-    # B
-    # C
-    # K
+# Printing LinkedList...
+# Head node:  A
+# Tail node:  A
+# A
+
+# Printing LinkedList Reversed...
+# Head node:  A
+# Tail node:  A
+# A
+
+# Printing LinkedList...
+# Head node:  A
+# Tail node:  B
+# A
+# B
+
+# Printing LinkedList Reversed...
+# Head node:  A
+# Tail node:  B
+# B
+# A
+
+# Printing LinkedList...
+# Head node:  A
+# Tail node:  N
+# A
+# B
+# C
+# D
+# K
+# N
+
+# Printing LinkedList Reversed...
+# Head node:  A
+# Tail node:  N
+# N
+# K
+# D
+# C
+# B
+# A
+
+# Popped: D
+
+# Printing LinkedList...
+# Head node:  A
+# Tail node:  N
+# A
+# B
+# C
+# K
+# N
+# Popped: N
+
+# Printing LinkedList...
+# Head node:  A
+# Tail node:  N
+# A
+# B
+# C
+# K
+
+# Popped: A
+
+# Printing LinkedList...
+# Head node:  B
+# Tail node:  N
+# B
+# C
+# K
+
+# Printing LinkedList...
+# Head node:  B
+# Tail node:  N
+# B
+# C
+# K
 ####################################
 
 
