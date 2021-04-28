@@ -1,5 +1,5 @@
 #****************
-#IN PROGRESS
+#  IN PROGRESS
 #***************
 class Node:
     def __init__(self, dataval):
@@ -10,7 +10,7 @@ class Node:
 
 class BTree:
     '''
-    Binary Tree: All nodes follow this property - all left descendants <= n < all right descendants.
+    Binary Search tree: All nodes follow this property - all left descendants <= n < all right descendants.
     '''
     def __init__(self, dataval):
         n = Node(dataval)
