@@ -22,11 +22,12 @@ class BTree:
 
         Args:
             val: Value of the Node
-        
+            
         Returns:
             Nothing
         '''
-        pass
+        #Traverse to the location of adding the node:
+        while self.right==None or self.left ==None.
 
     def delete(self, val):
         '''

@@ -4,13 +4,14 @@ class Stack(list): #Inherit the built-in class List
         self.insert(0,val)
         print("Pushed: ", val)
 
-    def popVal(self):
+    def popVal(self):       #Next steps: figure how to overload with list's function
         if len(self)==0:
             print("Stack is empty. Nothing to pop.")
         else:
-            popped = self.pop(0)
-            print("Popped: ", popped)
+            print("Popped: ", self[0])
+            self.remove(self[0])
             
+    pop = popVal
 
     def printStack(self):
         print("Printing stack...")
@@ -20,16 +21,16 @@ class Stack(list): #Inherit the built-in class List
 def main():
     myStack = Stack()
 
-    myStack.popVal()
+    myStack.pop()
     myStack.push(4)
     myStack.push("Valerie")
     myStack.push(["as","you","know"])
     myStack.printStack()
-    myStack.popVal()
+    myStack.pop()
     myStack.push(2.4)
     myStack.printStack()
-    myStack.popVal()
-    myStack.popVal()
+    myStack.pop()
+    myStack.pop()
 
     myStack.printStack()
 
