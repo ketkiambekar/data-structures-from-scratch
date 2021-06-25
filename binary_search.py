@@ -21,7 +21,6 @@ def binary_search_recursive(arr=[], x=0):
     l =len(arr)
     if l in (0,1):
         return False
-
     
     #recursive call
     mid = l//2
@@ -32,7 +31,11 @@ def binary_search_recursive(arr=[], x=0):
     else:
         return binary_search_recursive(arr[:mid], x)
 
-
     
 if __name__=="__main__":
     main()
+
+# OUTPUT
+# True
+# True
+# False
